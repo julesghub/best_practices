@@ -1,4 +1,4 @@
-# Software Training Best Practices for the CIG Community
+# Software Training Best Practices for the AuScope Community
 
 ## Executive Summary
 
@@ -74,10 +74,9 @@ Instructors should describe what participants need to know or do in advance of t
 
 ### Assessment
   * Assess what users have learned via post-tutorial surveys .
-  * CIG has a suite of standard questions (see Appendix) that instructors can use as a starting point.
+  * AuScope has a suite of standard questions (see Appendix) that instructors can use as a starting point.
 
 ### Examples
-  * PyLith: https://wiki.geodynamics.org/software:pylith:start#tutorials
   * Obspy: http://krischer.github.io/seismo_live/
   * ASPECT:
   

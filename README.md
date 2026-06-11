@@ -1,9 +1,9 @@
 <p align="center">
-<img src="images/CIGcirclelogo2020_BlackText-01.png" width="25%"  >
+<img src="images/auscope2025colour.png" width="25%"  >
 </p>
 
 
-# Computational Infrastructure for Geodynamics (CIG) Best Practices
+# AuScope Best Practices
 
 <br>
 
@@ -16,9 +16,9 @@
 
   * [Contributing Software Checklist](ContributingChecklist.md).
      
-     Does your project fulfill these requirements? Consider [contributing](https://geodynamics.org/software/software-contribute) your software to the CIG community.  Questions? Need help? [Contact us](https://geodynamics.org/support/ticket/new).
+     Does your project fulfill these requirements? Consider [contributing](https://www.auscope.org.au/software/software-contribute) your software to the AuScope community.  Questions? Need help? [Contact us](https://www.auscope.org.au/support/ticket/new).
 
-  * [Software Repository Template](https://github.com/geodynamics/software_template). 
+  * [Software Repository Template](https://github.com/auscope/software_template). 
     Copy this repository to your own account to begin following best practices at the start of your project.
 
 
@@ -34,4 +34,4 @@
 <hr>
 <br>
 
-*Visit us at [geodynamics.org](https://geodynamics.org/).*
+*Visit us at [www.auscope.org.au](https://www.auscope.org.au/).*

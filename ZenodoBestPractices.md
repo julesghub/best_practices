@@ -1,15 +1,12 @@
-# Zenodo Best Practices for the CIG Community
+# Zenodo Best Practices for the AuScope Community
 
 [zenodo.org](https://zenodo.org)
 
-CIG recommends that all developers and researchers obtain DOI's (digital object identifiers) for all of their research products.  This includes software, and observational and model data.
+AuScope recommends that all developers and researchers obtain DOI's (digital object identifiers) for all of their research products.  This includes software, and observational and model data.
 
 You may use your github account or orcid account as login.
 
-CIG maintains a zenodo community at https://zenodo.org/communities/geodynamics.  Search for: "Computational Infrastructure for Geodynamics" or simply on the word "geodynamics"
-
-Update: zenodo began supporting versioning on May 30, 2018. Please see their blog post and FAQs for more information.
-* http://blog.zenodo.org/2017/05/30/doi-versioning-launched/
+AuScope maintains a zenodo community at https://zenodo.org/communities/auscope
 
 ## Executive Summary
 
@@ -28,7 +25,6 @@ You CAN still edit the metadata after Publishing.
 
 If you embed the software DOI in the documentation (_recommended_), you can reserve a DOI before publishing.  On the upload page under Basic Information and Digital Object Identifier click the _Reserve DOI_ button. This will not register the DOI, nor will it publish your record so you can still update the files in your repository. See Zenodo FAQs under _General_ for more information: [help.zenodo.org](https://help.zenodo.org/)
 
-
 Don't forget to add the DOI to the GitHub release!
 * Clicking on the DOI badge on the Zenodo page will present copyable Markdown text (and other formats) that can be placed in the GitHub release text to display the badge on GitHub.
 
@@ -37,7 +33,7 @@ Don't forget to add the DOI to the GitHub release!
 By creating a webhook into your repository, a zenodo entry will automatically be created with each new release. If versioned from a previous entry, the versions will be automatically associated.
 
 You will still need to:
-* Assign your code to the CIG community.
+* Assign your code to the AuScope community.
 * Check your authors lists especially if all committers are not considered authors for your project.
 * If you embed the software DOI into your documentation, DO NOT USE this feature in conjunction with _Reserve DOI_.
 
@@ -76,22 +72,22 @@ Proceed to the Metadata section.
 Please use the following guidelines when assigning metadata.
 
 1. **Upload type**
-   * Please assign _software_ to all github releases.  
+   * Please assign _software_ to all github releases.
 2. **Basic Information**
    * Add the mandatory data.
    * Authors. WEBHOOK USERS: When generating a zenodo release using a webhook, the default is to assign all commiters as authors.  Default behaviors can be overridden using .zenodo.json file in the main directory. See PyLith and ASPECT for examples.
    * Description.  Please add an informative description of the software and changes to this release.  This is what the user will see.
    * Additional Notes. Add acknowledgements including funding here if your grant cannot be found in 5.
 3. **License**
-   * All CIG codes are _Open Access_
-   * Please search for the correct _License_. Most CIG codes are _GNU General Pubic License 2.0_ or _GNU General Pubic License 3.0_. _or later_ is also supported.
+   * All AuScope codes are _Open Access_
+   * Please search for the correct _License_. Most AuScope codes are _GNU General Pubic License 2.0_ or _GNU General Pubic License 3.0_. _or later_ is also supported.
 4. **Communities**
-   * Please assign the community "Computational Infrastructure for Geodynamics". You may need to type in most of the string before zenodo finds it.
+   * Please assign the community "AuScope". You may need to type in most of the string before zenodo finds it.
 5. **Funding**
    * Choose from pick list of funding agencies to add funding acknowledgements. NSF grants are now supported. If your grant is not listed, add it in *Additional Notes*. See 2.
 6. **Related/alternate identifiers**
-   * Add geodynamics.org/resources/*CodeName* as _references this upload_.
-   * Add the github repo e.g. https://github.com/geodynamics/aspect/tree/v1.5.0 as _is a supplement to this upload_.
+   * Add www.auscope.org.au/resources/*CodeName* as _references this upload_.
+   * Add the github repo e.g. https://github.com/auscope/aspect/tree/v1.5.0 as _is a supplement to this upload_.
 7. **Contributors**
    * Please don't forget to acknowledge others who contributed to this research product.
 8. **References**

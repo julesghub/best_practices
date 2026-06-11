@@ -1,8 +1,8 @@
 # Contributing Software
 
-CIG welcomes contributions of modeling codes in geophysics that meet our [software best practices](https://geodynamics.org/software/software-bp). Software best practices aid your project in becoming discoverable and reusable. Best practices help you increase the impact of your work and get appropriate credit. By sharing your software, you make science more reproducible, and contribute to a growing software ecosystem. Additionally, following best practices allows you to direct more effort towards feature rich code while increasing your userbase. CIG provides support and resources for projects that have been accepted as CIG software.
+AuScope welcomes contributions of modeling codes in geophysics that meet our [software best practices](https://www.auscope.org.au/software/software-bp). Software best practices aid your project in becoming discoverable and reusable. Best practices help you increase the impact of your work and get appropriate credit. By sharing your software, you make science more reproducible, and contribute to a growing software ecosystem. Additionally, following best practices allows you to direct more effort towards feature rich code while increasing your userbase. AuScope provides support and resources for projects that have been accepted as AuScope software.
 
-The Checklist below, is meant as a guide to prepare your software for CIG review.
+The Checklist below, is meant as a guide to prepare your software for AuScope review.
 
 A pdf version of this [contribution checklist](ContributingChecklist.pdf) is also contained in this repo for download.
 
@@ -11,7 +11,7 @@ A pdf version of this [contribution checklist](ContributingChecklist.pdf) is als
 
 **Bold**: mandatory – following minimum best practices  
 Plain: optional – following standard or target best practices  
-\* (asterisk): CIG support available.
+\* (asterisk): AuScope support available.
 
 - [ ] **Include a ‘README.md’ file**  
 The file should have the following attributes:
@@ -37,10 +37,10 @@ Folder containing user documentation. User manual describes the problem the code
 - [ ] **Include a ‘LICENSE’ file**  
 Add a plain text copy of your OSI approved software license to your repository: https://opensource.org/licenses
 
-CIG codes are required to use an OSI approved license. We recommend the GPL-2.0, GPL-3.0, or MIT licenses.
+AuScope codes are required to use an OSI approved license. We recommend the GPL-2.0, GPL-3.0, or MIT licenses.
 
 For more information, see also:
-https://geodynamics.org/cig/dev/software-ownership-and-licensing/gnu-gpl/
+**FIX** add link
 
 - [ ] **Include a ‘CONTRIBUTING.md’ file**  
 Describe how to contribute to code development.  Should include guidelines for coding standards, acceptable contributions, and requirements for additional tests.
@@ -78,20 +78,20 @@ List the authors of your code. This may or may not be the same as those listed i
 Acknowledge funding agencies or other sources of support to credit.
 
 - [ ] Optional: Include a ‘CODE_OF_CONDUCT.md’ file  
-All accepted projects  are required to abide by the CIG Code of Conduct:
-https://geodynamics.org/cig/about/code-conduct/
+All accepted projects  are required to abide by the AuScope Code of Conduct:
+**FIX** add link
 
 You may add your own code of conduct. If you do, we recommend using the Contributor Covenant CoC as a base file:
 https://www.contributor-covenant.org/
 
 # Helpful Examples and Links
 
-Useful CIG projects as examples:
-* https://github.com/geodynamics/aspect
-* https://github.com/geodynamics/Rayleigh
-* https://github.com/geodynamics/pylith
+Useful AuScope projects as examples:
 
 Some other useful checklists:
+
+**JG To Update**
+
 * CII Best Practices Badge Program, Best Practices Criteria for Free/Libre and Open Source Software (FLOSS)  
 	https://github.com/coreinfrastructure/best-practices-badge/blob/master/doc/criteria.md
 * Journal of Open Source Software – Review checklist  

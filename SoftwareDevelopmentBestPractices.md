@@ -1,17 +1,17 @@
-# Software Development Best Practices for the CIG Community
+# Software Development Best Practices for the AuScope Community
 
 ## Executive Summary
 
-This document describes best practices that software that is part of the CIG collection must meet:
+This document describes best practices that software that is part of the AuScope collection must meet:
 
 * **Minimum Best Practices** are the minimum that we expect all software to meet.
-* **Standard Best Practices** are the suite of standards CIG software should be following. If the software falls short of these standards, developers should have a plan of active development to achieve this level.
+* **Standard Best Practices** are the suite of standards AuScope software should be following. If the software falls short of these standards, developers should have a plan of active development to achieve this level.
 * **Target Best Practices** should be considered in the development plan for software under active development.
 
-A sample repository that demonstrates these best practices can be found in the CIG software template repository (https://github.com/geodynamics/software_template). 
+A sample repository that demonstrates these best practices can be found in the AuScope software template repository (https://github.com/auscope/software_template). 
 
 ## Minimum Best Practices
-*Practices that codes must follow in order to be accepted by CIG.*
+*Practices that codes must follow in order to be accepted by AuScope.*
 
 1. **Licensing**
 
@@ -60,7 +60,7 @@ A sample repository that demonstrates these best practices can be found in the C
 
 ## Standard Best Practices
 
-*Practices in addition to the above* Minimum Best Practices *that should be used by all software developed within the CIG community. Software not meeting all standards should be actively working to eliminate deficiencies.*
+*Practices in addition to the above* Minimum Best Practices *that should be used by all software developed within the AuScope community. Software not meeting all standards should be actively working to eliminate deficiencies.*
 
 1. **Version control**
     1. Limit source tree to files necessary to build software and documentation, and run verification tests.
@@ -137,7 +137,7 @@ A sample repository that demonstrates these best practices can be found in the C
 
 ## Target Best Practices
 
-*Practices in addition to the above* Standard Best Practices *that describe and define long-term development priorities for software developed within the CIG community. These go beyond the* Standard Best Practices *and are important for long-term projects.*
+*Practices in addition to the above* Standard Best Practices *that describe and define long-term development priorities for software developed within the AuScope community. These go beyond the* Standard Best Practices *and are important for long-term projects.*
 
 1. **Version control**
     1. Add new features in separate branches.
@@ -177,7 +177,7 @@ A sample repository that demonstrates these best practices can be found in the C
     2. Provide a list of publications that cite or use the software. 
        <details>
            <summary>Examples</summary>
-           link to the citations tracked by CIG and/or by the project
+           link to the citations tracked by AuScope and/or by the project
            </details>
     3. List ORCIDs for each author and contributor and encourage all contributors to add their ORCID ID to their GitHub profile.
     4. Create a wiki, FAQ, or knowledge base that provides answers to common questions.

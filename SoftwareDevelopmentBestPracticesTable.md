@@ -1,4 +1,4 @@
-# Software Development Best Practices for the CIG Community (Summary Table)
+# Software Development Best Practices for the AuScope Community (Summary Table)
 
 |           | Minimum | Standard | Target |
 | --------- |:--------|:---------|:-------|
@@ -10,8 +10,8 @@
 | Documentation | (a) Instructions for installation. (b) Description of all parameters. (c) Explanation of physics the code simulates. (d) Cookbook examples with input files. (e) Citable publication. (f) Documentation provided online or offline. | (a) Description of workflow for research use. (b) Description of how to extend code in anticipated ways. | Standard + (a) Guidelines on parameter scales/combinations for which code is designed/tested. (b) FAQs or knowledge base. (c) Documentation provided in dynamic form and available offline. |
 | User workflow | | (a) Changing simulation parameters does not require rebuilding. (b) User-specified directories and filenames for input/output. (c) Use of standard binary formats. (d) Citation for code version. | Standard + Reproducibility via archiving of workflow. |
 
-**Minimum**: Practices that codes must follow in order to be accepted by CIG.
+**Minimum**: Practices that codes must follow in order to be accepted by AuScope.
 
-**Standard**: Practices in addition to the Minimum that should be used by all codes developed within the CIG community. Codes not meeting these standards should be actively working to eliminate deficiencies.
+**Standard**: Practices in addition to the Minimum that should be used by all codes developed within the AuScope community. Codes not meeting these standards should be actively working to eliminate deficiencies.
 
-**Target**: Desirable practices beyond the Standard that developers should consider in defining development priorities for codes developed within the CIG community.
+**Target**: Desirable practices beyond the Standard that developers should consider in defining development priorities for codes developed within the AuScope community.
