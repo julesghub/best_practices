@@ -7,12 +7,13 @@
 
 The following Guidlines are been forked from the CIG's original Guidlines [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10855227.svg)](https://doi.org/10.5281/zenodo.10957179)
 
+Choose the best practices guidelines for for the list below:
 
+  * [Minimum](./SoftwareDevelopmentBestPractices.md#minimum-best-practices)
+  * [Standard](./SoftwareDevelopmentBestPractices.md#standard-best-practices)
+  * [Target](./SoftwareDevelopmentBestPractices.md#target-best-practices)
+    
 <br>
-
-* [Software Development Best Practices](SoftwareDevelopmentBestPractices.md)
-
-  *Minimum, Standard, and Target best practices related to development of scientific software.*
 
   The following resources support the Software Development Best Practices. Use them to improve your software project.
 
