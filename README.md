@@ -5,14 +5,15 @@
 
 # AuScope Best Practices
 
-The following Guidlines are been forked from the CIG's original Guidlines [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10855227.svg)](https://doi.org/10.5281/zenodo.10957179)
-
+The following Guidelines are been forked from the CIG's original Guidlines [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10855227.svg)](https://doi.org/10.5281/zenodo.10957179)
 Choose the best practices guidelines for for the list below:
 
   * [Minimum](./SoftwareDevelopmentBestPractices.md#minimum-best-practices)
   * [Standard](./SoftwareDevelopmentBestPractices.md#standard-best-practices)
   * [Target](./SoftwareDevelopmentBestPractices.md#target-best-practices)
     
+---
+
 <br>
 
   The following resources support the Software Development Best Practices. Use them to improve your software project.
@@ -36,5 +37,16 @@ Choose the best practices guidelines for for the list below:
 <br>
 <hr>
 <br>
+
+---
+## Acknowledgements
+
+We acknowledge these guidelines have been modified from,
+
+**Computational Infrastructure for Geodynamics, Aagaard, B., Bangerth, W., Brown, J., Hwang, L., Kellogg, L., Tape, C., Fraters, M., & Rene, G. (2024). Software Development Best Practices for the CIG Community. Zenodo. https://doi.org/10.5281/zenodo.10957179**
+
+We thank the above authors for making their work public and open.
+---
+
 
 *Visit us at [www.auscope.org.au](https://www.auscope.org.au/).*
