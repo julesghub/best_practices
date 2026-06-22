@@ -35,8 +35,7 @@ Choose the best practices guidelines for for the list below:
   *Best practices for obtaining a DOI from [Zenodo](https://zenodo.org/).*
 
 <br>
-<hr>
-<br>
+
 
 ---
 ## Acknowledgements
