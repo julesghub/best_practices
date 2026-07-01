@@ -41,7 +41,6 @@ These Guidelines have been forked from the CIG's original Guidlines [![DOI](http
 
 <br>
 
-
 ---
 ## Acknowledgements
 
@@ -50,7 +49,7 @@ We acknowledge these guidelines have been modified from,
 **Computational Infrastructure for Geodynamics, Aagaard, B., Bangerth, W., Brown, J., Hwang, L., Kellogg, L., Tape, C., Fraters, M., & Rene, G. (2024). Software Development Best Practices for the CIG Community. Zenodo. https://doi.org/10.5281/zenodo.10957179**
 
 We thank the above authors for making their work public and open.
----
 
+---
 
 *Visit us at [www.auscope.org.au](https://www.auscope.org.au/).*
