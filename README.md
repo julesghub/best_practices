@@ -16,21 +16,24 @@ Choose the best practices guidelines for for the list below:
 
 <br>
 
-  The following resources support the Software Development Best Practices. Use them to improve your software project.
+## Work In Progess Documents
 
-  * [Contributing Software Checklist](ContributingChecklist.md).
+  The following resources are works in profess (WIP) and will support the Software Development Best Practices.
+
+  * [WIP - Contributing Software to AuScope Checklist](ContributingChecklist.md).
      
-     Does your project fulfill these requirements? Consider [contributing](https://www.auscope.org.au/software/software-contribute) your software to the AuScope community.  Questions? Need help? [Contact us](https://www.auscope.org.au/support/ticket/new).
+     Does your project fulfill these requirements? 
+    <!-- Consider [contributing](https://www.auscope.org.au/software/software-contribute) your software to the AuScope community.  Questions? Need help? [Contact us](https://www.auscope.org.au/support/ticket/new). -->
 
-  * [Software Repository Template](https://github.com/auscope/software_template). 
+  * [WIP - Software Repository Template](https://github.com/auscope/software_template). 
     Copy this repository to your own account to begin following best practices at the start of your project.
 
 
-* [Training Best Practices](TrainingBestPractices.md)
+* [WIP - Training Best Practices](TrainingBestPractices.md)
 
   *Best practices for tutorials and hackathons for training users.*
 
-* [Zenodo Best Practices](ZenodoBestPractices.md)
+* [WIP - Zenodo Best Practices](ZenodoBestPractices.md)
 
   *Best practices for obtaining a DOI from [Zenodo](https://zenodo.org/).*
 
