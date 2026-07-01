@@ -3,15 +3,17 @@
 </p>
 
 
-# AuScope Best Practices
+# AuScope Software Best Practices Guidelines
 
-The following Guidelines are been forked from the CIG's original Guidlines [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10855227.svg)](https://doi.org/10.5281/zenodo.10957179)
-Choose the best practices guidelines for for the list below:
+Choose the software best practices you'd like to follow:
 
   * [Minimum](./SoftwareDevelopmentBestPractices.md#minimum-best-practices)
   * [Standard](./SoftwareDevelopmentBestPractices.md#standard-best-practices)
   * [Target](./SoftwareDevelopmentBestPractices.md#target-best-practices)
-    
+
+
+These Guidelines have been forked from the CIG's original Guidlines [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10855227.svg)](https://doi.org/10.5281/zenodo.10957179)
+
 ---
 
 <br>
