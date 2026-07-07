@@ -32,14 +32,14 @@ A [quick reference](SoftwareDevelopmentBestPracticesTable.md) summary table is a
       <summary>Examples</summary>
       GitHub, GitLab
       </details>
-   3. Obtain persistent identifiers for each named version of the software such as releases.
+   3. Obtain persistent identifiers versions of the software i.e. 1.3, 7.1.3.
 
 3. **Portability, configuration, and building**
    1. Ensure that the code builds on Unix-like machines (Linux, macOS) with only free tools.
-   2. Use a well designed, portable build system.
+   2. Use a portable build system.
       <details>
       <summary>Examples</summary>
-      cmake, make, autotools (Unix only), setup.py
+      cmake, make, pixi, etc.
       </details>
 
 4. **Testing**
@@ -53,7 +53,7 @@ A [quick reference](SoftwareDevelopmentBestPracticesTable.md) summary table is a
    4. Explain the physics the software simulates.
    5. Illustrate how to use the software to solve scientific problems with a few cookbook examples that have sample, editable input files.
    6. Provide documentation online or offline.
-   7. Include how to cite the software (see also [Citable publication](#6-citable-publication) below).
+   7. Include how to cite the software e.g. CITATION.cff.
 
 6. **Citable publication**
    1. Provide a citable publication.
@@ -72,7 +72,7 @@ A [quick reference](SoftwareDevelopmentBestPracticesTable.md) summary table is a
 *Practices in addition to the [Minimum Best Practices](#minimum-best-practices) above that should be used by all software developed within the AuScope community. Software not meeting all standards should be actively working to eliminate deficiencies.*
 
 1. **Version control**
-   1. Limit source tree to files necessary to build software and documentation, and run verification tests.
+   1. Limit source tree to files necessary to build software, documentation, and run verification tests.
    2. In each release, include release notes distinguishing between significant changes, new features and bugfixes.
       <details>
       <summary>Example</summary>
@@ -86,6 +86,10 @@ A [quick reference](SoftwareDevelopmentBestPracticesTable.md) summary table is a
       Graphical user interfaces, human readable parameter files.
       </details>
    2. Provide a development plan, updated yearly, with prioritization of new features and an estimated timetable for their implementation.
+      <details>
+      <summary>Examples</summary>
+      Use of GitHub [Milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/creating-and-editing-milestones-for-issues-and-pull-requests)
+      </details>
    3. Use comments in the software that describe the following:
       1. Algorithms with appropriate references.
       2. Purpose of functions, objects, etc. and descriptions of arguments (inputs / outputs), and groups of objects.
@@ -108,7 +112,11 @@ A [quick reference](SoftwareDevelopmentBestPracticesTable.md) summary table is a
          </details>
 
 3. **Portability, configuration, and building**
-   1. Let the build system verify that dependencies are available and usable.
+   1. Build system should verify that appropriate dependencies are available.
+      <details>
+      <summary>Examples</summary>
+      pixi.lock, conda-lock.yml, etc.
+      </details>
    2. Use an automated and portable configuration and build system.
    3. Output all configuration and build options during runtime to facilitate reproducibility.
       <details>
@@ -162,12 +170,12 @@ A [quick reference](SoftwareDevelopmentBestPracticesTable.md) summary table is a
    1. Implement functionality as a library rather than an application.
       1. Leverage alternative implementations via plugins.
       2. Construct higher level applications using libraries as building blocks.
-   2. Output provenance information (such as parameters used).
+   2. Output provenance information (such as parameters/input script used).
    3. Strive for scalability.
       1. Use parallel access to inputs and outputs.
          <details>
          <summary>Example</summary>
-         HDF5
+         HDF5, mpi4py
          </details>
    4. Implement checkpointing and restart capability.
 
